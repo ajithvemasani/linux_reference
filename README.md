@@ -15,33 +15,33 @@ user id : endeavourn </br>
 password: <Idiot_this_is_a_secret>
 
 ## Create File
-touch <file_name>
-vi <file_name>
-**:q** to quit without saving
-**:q!** to force quit wihtout saving the changes
-**:wq** to save and quit
-To create a directory
+touch <file_name> </br>
+vi <file_name> </br>
+**:q** to quit without saving </br>
+**:q!** to force quit wihtout saving the changes </br>
+**:wq** to save and quit </br>
+To create a directory: </br>
 mkdir
 
 ## Remove file
-rm <file_name>
-To remove a directory
+rm <file_name> </br>
+To remove a directory: </br>
 rm -r <name>
 
 ## less
-less <file_name_which_you_want_to_read>
-If you want to put in "follow" mode.(Usually log file auto loads when new data comes) 
-less +F <file_name>
+less <file_name_which_you_want_to_read> </br>
+If you want to put in "follow" mode.(Usually log file auto loads when new data comes) </br>
+less +F <file_name> </br>
 
-**Spacebar**: Move forward one page.
-**b**: Move back one page.
-**q**: Quit less.
-**/search_term**: Search forward for a specific term.
-**n**: Move to the next occurrence of the search term.
-**k**: Scroll up one line.
-**j**: Scroll down one line.
-**g**: Go to the beginning of the file.
-**G**: Go to the end of the file.
+**Spacebar**: Move forward one page. </br>
+**b**: Move back one page. </br>
+**q**: Quit less. </br>
+**/search_term**: Search forward for a specific term. </br>
+**n**: Move to the next occurrence of the search term. </br>
+**k**: Scroll up one line. </br>
+**j**: Scroll down one line. </br>
+**g**: Go to the beginning of the file. </br>
+**G**: Go to the end of the file. </br>
 
 
 ## scp
